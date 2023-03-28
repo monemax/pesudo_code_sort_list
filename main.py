@@ -9,5 +9,4 @@ def sortlist(L,n):
         del L[idx]
         n = n-1
 
-
         return L2
