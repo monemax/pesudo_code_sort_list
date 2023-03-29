@@ -1,0 +1,16 @@
+# Search Minimum:
+
+SearchMinFromList (L,n)
+        minValue = L[1]
+        counter =2
+        while (counter <=n)
+                v = L[counter]
+                if ( v< minValue)
+                    minValue = v
+                else
+                    pass
+                endIF
+        endWhile
+        return minValue
+endSearchMinFromList
+
